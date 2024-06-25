@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207955622C2B2F8D00C2523B /* KWK_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207955612C2B2F8D00C2523B /* KWK_Final_ProjectApp.swift */; };
+		207955642C2B2F8D00C2523B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207955632C2B2F8D00C2523B /* ContentView.swift */; };
+		207955662C2B2F8F00C2523B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207955652C2B2F8F00C2523B /* Assets.xcassets */; };
+		207955692C2B2F8F00C2523B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207955682C2B2F8F00C2523B /* Preview Assets.xcassets */; };
+		207955732C2B2F9000C2523B /* KWK_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207955722C2B2F9000C2523B /* KWK_Final_ProjectTests.swift */; };
+		2079557D2C2B2F9000C2523B /* KWK_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079557C2C2B2F9000C2523B /* KWK_Final_ProjectUITests.swift */; };
+		2079557F2C2B2F9000C2523B /* KWK_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079557E2C2B2F9000C2523B /* KWK_Final_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2079556F2C2B2F9000C2523B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207955562C2B2F8D00C2523B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2079555D2C2B2F8D00C2523B;
+			remoteInfo = "KWK-Final Project";
+		};
+		207955792C2B2F9000C2523B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 207955562C2B2F8D00C2523B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2079555D2C2B2F8D00C2523B;
+			remoteInfo = "KWK-Final Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2079555E2C2B2F8D00C2523B /* KWK-Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK-Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207955612C2B2F8D00C2523B /* KWK_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectApp.swift; sourceTree = "<group>"; };
+		207955632C2B2F8D00C2523B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		207955652C2B2F8F00C2523B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207955682C2B2F8F00C2523B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2079556E2C2B2F9000C2523B /* KWK-Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK-Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207955722C2B2F9000C2523B /* KWK_Final_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectTests.swift; sourceTree = "<group>"; };
+		207955782C2B2F9000C2523B /* KWK-Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK-Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2079557C2C2B2F9000C2523B /* KWK_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectUITests.swift; sourceTree = "<group>"; };
+		2079557E2C2B2F9000C2523B /* KWK_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2079555B2C2B2F8D00C2523B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2079556B2C2B2F9000C2523B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207955752C2B2F9000C2523B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207955552C2B2F8D00C2523B = {
+			isa = PBXGroup;
+			children = (
+				207955602C2B2F8D00C2523B /* KWK-Final Project */,
+				207955712C2B2F9000C2523B /* KWK-Final ProjectTests */,
+				2079557B2C2B2F9000C2523B /* KWK-Final ProjectUITests */,
+				2079555F2C2B2F8D00C2523B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2079555F2C2B2F8D00C2523B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2079555E2C2B2F8D00C2523B /* KWK-Final Project.app */,
+				2079556E2C2B2F9000C2523B /* KWK-Final ProjectTests.xctest */,
+				207955782C2B2F9000C2523B /* KWK-Final ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		207955602C2B2F8D00C2523B /* KWK-Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				207955612C2B2F8D00C2523B /* KWK_Final_ProjectApp.swift */,
+				207955632C2B2F8D00C2523B /* ContentView.swift */,
+				207955652C2B2F8F00C2523B /* Assets.xcassets */,
+				207955672C2B2F8F00C2523B /* Preview Content */,
+			);
+			path = "KWK-Final Project";
+			sourceTree = "<group>";
+		};
+		207955672C2B2F8F00C2523B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				207955682C2B2F8F00C2523B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		207955712C2B2F9000C2523B /* KWK-Final ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				207955722C2B2F9000C2523B /* KWK_Final_ProjectTests.swift */,
+			);
+			path = "KWK-Final ProjectTests";
+			sourceTree = "<group>";
+		};
+		2079557B2C2B2F9000C2523B /* KWK-Final ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2079557C2C2B2F9000C2523B /* KWK_Final_ProjectUITests.swift */,
+				2079557E2C2B2F9000C2523B /* KWK_Final_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "KWK-Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2079555D2C2B2F8D00C2523B /* KWK-Final Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207955822C2B2F9000C2523B /* Build configuration list for PBXNativeTarget "KWK-Final Project" */;
+			buildPhases = (
+				2079555A2C2B2F8D00C2523B /* Sources */,
+				2079555B2C2B2F8D00C2523B /* Frameworks */,
+				2079555C2C2B2F8D00C2523B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWK-Final Project";
+			productName = "KWK-Final Project";
+			productReference = 2079555E2C2B2F8D00C2523B /* KWK-Final Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2079556D2C2B2F9000C2523B /* KWK-Final ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207955852C2B2F9000C2523B /* Build configuration list for PBXNativeTarget "KWK-Final ProjectTests" */;
+			buildPhases = (
+				2079556A2C2B2F9000C2523B /* Sources */,
+				2079556B2C2B2F9000C2523B /* Frameworks */,
+				2079556C2C2B2F9000C2523B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207955702C2B2F9000C2523B /* PBXTargetDependency */,
+			);
+			name = "KWK-Final ProjectTests";
+			productName = "KWK-Final ProjectTests";
+			productReference = 2079556E2C2B2F9000C2523B /* KWK-Final ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		207955772C2B2F9000C2523B /* KWK-Final ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207955882C2B2F9000C2523B /* Build configuration list for PBXNativeTarget "KWK-Final ProjectUITests" */;
+			buildPhases = (
+				207955742C2B2F9000C2523B /* Sources */,
+				207955752C2B2F9000C2523B /* Frameworks */,
+				207955762C2B2F9000C2523B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2079557A2C2B2F9000C2523B /* PBXTargetDependency */,
+			);
+			name = "KWK-Final ProjectUITests";
+			productName = "KWK-Final ProjectUITests";
+			productReference = 207955782C2B2F9000C2523B /* KWK-Final ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		207955562C2B2F8D00C2523B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2079555D2C2B2F8D00C2523B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2079556D2C2B2F9000C2523B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2079555D2C2B2F8D00C2523B;
+					};
+					207955772C2B2F9000C2523B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2079555D2C2B2F8D00C2523B;
+					};
+				};
+			};
+			buildConfigurationList = 207955592C2B2F8D00C2523B /* Build configuration list for PBXProject "KWK-Final Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207955552C2B2F8D00C2523B;
+			productRefGroup = 2079555F2C2B2F8D00C2523B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2079555D2C2B2F8D00C2523B /* KWK-Final Project */,
+				2079556D2C2B2F9000C2523B /* KWK-Final ProjectTests */,
+				207955772C2B2F9000C2523B /* KWK-Final ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2079555C2C2B2F8D00C2523B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207955692C2B2F8F00C2523B /* Preview Assets.xcassets in Resources */,
+				207955662C2B2F8F00C2523B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2079556C2C2B2F9000C2523B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207955762C2B2F9000C2523B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2079555A2C2B2F8D00C2523B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207955642C2B2F8D00C2523B /* ContentView.swift in Sources */,
+				207955622C2B2F8D00C2523B /* KWK_Final_ProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2079556A2C2B2F9000C2523B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207955732C2B2F9000C2523B /* KWK_Final_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207955742C2B2F9000C2523B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2079557D2C2B2F9000C2523B /* KWK_Final_ProjectUITests.swift in Sources */,
+				2079557F2C2B2F9000C2523B /* KWK_Final_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		207955702C2B2F9000C2523B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2079555D2C2B2F8D00C2523B /* KWK-Final Project */;
+			targetProxy = 2079556F2C2B2F9000C2523B /* PBXContainerItemProxy */;
+		};
+		2079557A2C2B2F9000C2523B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2079555D2C2B2F8D00C2523B /* KWK-Final Project */;
+			targetProxy = 207955792C2B2F9000C2523B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		207955802C2B2F9000C2523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		207955812C2B2F9000C2523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		207955832C2B2F9000C2523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KWK-Final Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.KWK-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		207955842C2B2F9000C2523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KWK-Final Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.KWK-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		207955862C2B2F9000C2523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.KWK-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWK-Final Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KWK-Final Project";
+			};
+			name = Debug;
+		};
+		207955872C2B2F9000C2523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.KWK-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWK-Final Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KWK-Final Project";
+			};
+			name = Release;
+		};
+		207955892C2B2F9000C2523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.KWK-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWK-Final Project";
+			};
+			name = Debug;
+		};
+		2079558A2C2B2F9000C2523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.KWK-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWK-Final Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		207955592C2B2F8D00C2523B /* Build configuration list for PBXProject "KWK-Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207955802C2B2F9000C2523B /* Debug */,
+				207955812C2B2F9000C2523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207955822C2B2F9000C2523B /* Build configuration list for PBXNativeTarget "KWK-Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207955832C2B2F9000C2523B /* Debug */,
+				207955842C2B2F9000C2523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207955852C2B2F9000C2523B /* Build configuration list for PBXNativeTarget "KWK-Final ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207955862C2B2F9000C2523B /* Debug */,
+				207955872C2B2F9000C2523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		207955882C2B2F9000C2523B /* Build configuration list for PBXNativeTarget "KWK-Final ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207955892C2B2F9000C2523B /* Debug */,
+				2079558A2C2B2F9000C2523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 207955562C2B2F8D00C2523B /* Project object */;
+}
