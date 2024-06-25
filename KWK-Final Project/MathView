@@ -1,0 +1,18 @@
+//
+//  MathView.swift
+//  KWK-Final Project
+//
+//  Created by Meja Santos on 6/25/24.
+//
+
+import SwiftUI
+
+struct MathView: View {
+    var body: some View {
+        Text("Math Tab")
+    }
+}
+
+#Preview {
+    MathView()
+}
