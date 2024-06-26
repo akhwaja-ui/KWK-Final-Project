@@ -20,7 +20,7 @@ struct ContentView: View {
                         NavigationLink(destination: ScienceView()) {
                             VStack {
                                 Image("Folder Icon")
-                                    .resizable() // Make the image resizable
+                                    .resizable() 
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Science")
                             }
@@ -32,7 +32,7 @@ struct ContentView: View {
                         NavigationLink(destination: TechView()) {
                             VStack {
                                 Image("Folder Icon")
-                                    .resizable() // Make the image resizable
+                                    .resizable() 
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Technology")
                             }
@@ -44,7 +44,7 @@ struct ContentView: View {
                         NavigationLink(destination: EngineerView()) {
                             VStack {
                                 Image("Folder Icon")
-                                    .resizable() // Make the image resizable
+                                    .resizable() 
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Engineering")
                             }
@@ -56,7 +56,7 @@ struct ContentView: View {
                         NavigationLink(destination: MathView()) {
                             VStack {
                                 Image("Folder Icon")
-                                    .resizable() // Make the image resizable
+                                    .resizable() 
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Math")
                             }
