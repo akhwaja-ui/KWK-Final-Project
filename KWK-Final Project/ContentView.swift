@@ -19,8 +19,8 @@ struct ContentView: View {
                     LazyVGrid(columns: columns, spacing: 20) {
                         NavigationLink(destination: ScienceView()) {
                             VStack {
-                                Image("Folder Icon")
-                                    .resizable() 
+                                Image("folder_icon")
+                                    .resizable()
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Science")
                             }
@@ -31,8 +31,8 @@ struct ContentView: View {
 
                         NavigationLink(destination: TechView()) {
                             VStack {
-                                Image("Folder Icon")
-                                    .resizable() 
+                                Image("folder_icon")
+                                    .resizable()
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Technology")
                             }
@@ -43,8 +43,8 @@ struct ContentView: View {
 
                         NavigationLink(destination: EngineerView()) {
                             VStack {
-                                Image("Folder Icon")
-                                    .resizable() 
+                                Image("folder_icon")
+                                    .resizable()
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Engineering")
                             }
@@ -55,7 +55,7 @@ struct ContentView: View {
 
                         NavigationLink(destination: MathView()) {
                             VStack {
-                                Image("Folder Icon")
+                                Image("folder_icon")
                                     .resizable() 
                                     .aspectRatio(contentMode: .fit) // Maintain aspect ratio
                                 Text("Math")
