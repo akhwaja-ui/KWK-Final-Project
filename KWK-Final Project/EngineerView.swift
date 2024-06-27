@@ -10,7 +10,7 @@ import SwiftUI
 struct EngineerView: View {
     @State private var isExpanded1: Bool = false
     @State private var isExpanded2: Bool = false
-
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             // First Disclosure Group
@@ -127,3 +127,4 @@ struct EngineerView: View {
         }
         
     }
+}
