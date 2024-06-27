@@ -1,0 +1,18 @@
+//
+//  TechView.swift
+//  KWK-Final Project
+//
+//  Created by Meja Santos on 6/25/24.
+//
+
+import SwiftUI
+
+struct TechView: View {
+    var body: some View {
+        Text("Technology Tab")
+    }
+}
+
+#Preview {
+    TechView()
+}

@@ -1,0 +1,18 @@
+//
+//  ScienceView.swift
+//  KWK-Final Project
+//
+//  Created by Meja Santos on 6/25/24.
+//
+
+import SwiftUI
+
+struct ScienceView: View {
+    var body: some View {
+        Text("Science Tab")
+    }
+}
+
+#Preview {
+    ScienceView()
+}
