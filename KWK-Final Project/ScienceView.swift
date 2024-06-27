@@ -318,10 +318,10 @@ struct ScienceView: View {
                 }
             }
         }
-        struct ScienceView_Previews: PreviewProvider {
-            static var previews: some View {
-                ScienceView()
             }
         }
-    } }
+struct ScienceView_Previews: PreviewProvider {
+    static var previews: some View {
+        ScienceView()
+    }
 }
