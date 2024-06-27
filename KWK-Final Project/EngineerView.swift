@@ -17,6 +17,8 @@ struct EngineerView: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 10) {
+                Text("Engineering/Robotics Programs")
+                    .fontWeight(.bold)
                 // First Disclosure Group
                 DisclosureGroup("SeaPerch", isExpanded: $isExpanded1) {
                     VStack(alignment: .leading, spacing: 10) {
@@ -63,7 +65,7 @@ struct EngineerView: View {
                 .cornerRadius(10)
                 .multilineTextAlignment(.leading)
                 
-                    // Second Disclosure Group
+                // Second Disclosure Group
                 DisclosureGroup("InspiritAI", isExpanded: $isExpanded2) {
                     VStack(alignment: .leading, spacing: 10) {
                         // Add your content here
@@ -109,146 +111,146 @@ struct EngineerView: View {
                 .cornerRadius(10)
                 .multilineTextAlignment(.leading)
                 
-                        // Third Disclosure Group
-                        DisclosureGroup("Boston University's Research in Science & Engineering", isExpanded: $isExpanded3) {
-                            VStack(alignment: .leading, spacing: 10) {
-                                // Add your content here
-                                Text("Overview")
-                                    .fontWeight(.bold)
-                                
-                                Text("RISE provides high school students with the opportunity to conduct university-level research in engineering fields. RISE provides two research tracks: Internships (Research projects under faculty and graduate students) and Practicum (Intensive lectures)")
-                                    .padding()
-                                    .background(Color.mint.opacity(0.3))
-                                    .cornerRadius(5)
-                                
-                                Text("Cost")
-                                    .fontWeight(.bold)
-                                Text("$5,350 USD is required for tuition +fees.")
-                                    .padding()
-                                    .background(Color.mint.opacity(0.3))
-                                    .cornerRadius(5)
-                                
-                                Text("Who")
-                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                Text("Rising Seniors")
-                                    .padding()
-                                    .background(Color.mint.opacity(0.3))
-                                    .cornerRadius(5)
-                                
-                                Text("Requirements")
-                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                
-                                Text("An online application requiring three essays, two recommendations, and supplemental materials." )
-                                    .fontWeight(.light)
-                                    .padding()
-                                    .background(Color.mint.opacity(0.3))
-                                    .cornerRadius(10)
- 
-                            }
-                            .padding()
-                            .background(Color.mint.opacity(0.3))
-                            .cornerRadius(10)
+                // Third Disclosure Group
+                DisclosureGroup("Boston University's Research in Science & Engineering", isExpanded: $isExpanded3) {
+                        VStack(alignment: .leading, spacing: 10) {
+                            // Add your content here
+                            Text("Overview")
+                                .fontWeight(.bold)
+                            
+                            Text("RISE provides high school students with the opportunity to conduct university-level research in engineering fields. RISE provides two research tracks: Internships (Research projects under faculty and graduate students) and Practicum (Intensive lectures)")
+                                .padding()
+                                .background(Color.mint.opacity(0.3))
+                                .cornerRadius(5)
+                            
+                            Text("Cost")
+                                .fontWeight(.bold)
+                            Text("$5,350 USD is required for tuition +fees.")
+                                .padding()
+                                .background(Color.mint.opacity(0.3))
+                                .cornerRadius(5)
+                            
+                            Text("Who")
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            Text("Rising Seniors")
+                                .padding()
+                                .background(Color.mint.opacity(0.3))
+                                .cornerRadius(5)
+                            
+                            Text("Requirements")
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            
+                            Text("An online application requiring three essays, two recommendations, and supplemental materials." )
+                                .fontWeight(.light)
+                                .padding()
+                                .background(Color.mint.opacity(0.3))
+                                .cornerRadius(10)
+
                         }
+                        .padding()
+                        .background(Color.mint.opacity(0.3))
+                        .cornerRadius(10)
+                    }
                         .padding()
                         .background(Color.mint.opacity(0.3))
                         .cornerRadius(10)
                         .multilineTextAlignment(.leading)
                 
-                            // Fourth Disclosure Group
-                        DisclosureGroup("Stanford's Pre-Collegiate Summer Institutes: Engineering", isExpanded: $isExpanded4) {
-                            VStack(alignment: .leading, spacing: 10) {
-                                // Add your content here
-                                Text("Overview")
-                                    .fontWeight(.bold)
-                                
-                                Text("Summer enrichment program that provides an intensive study in a single online course.")
-                                    .padding()
-                                    .background(Color.teal.opacity(0.3))
-                                    .cornerRadius(5)
-                                
-                                Text("Cost")
-                                    .fontWeight(.bold)
-                                Text("$3,050 USD is required for tuition +fees.")
-                                    .padding()
-                                    .background(Color.teal.opacity(0.3))
-                                    .cornerRadius(5)
-                                
-                                Text("Who")
-                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                Text("Grades 8-11")
-                                    .padding()
-                                    .background(Color.teal.opacity(0.3))
-                                    .cornerRadius(5)
-                                
-                                Text("Requirements")
-                                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                VStack {
-                                    Text("An online application requiring your students academic records, work samples and an optional video essay." )
-                                        .fontWeight(.light)
-                                        .padding()
-                                        .background(Color.teal.opacity(0.3))
-                                        .cornerRadius(10)
-                                    
-                                    
-                                    // Example image
-                                    Image(systemName: "heart.fill")
-                                        .resizable()
-                                        .frame(width: 50, height: 50)
-                                        .foregroundColor(.red)
-                                }
+               // Fourth Disclosure Group
+                DisclosureGroup("Stanford's Pre-Collegiate Summer Institutes: Engineering", isExpanded: $isExpanded4) {
+                        VStack(alignment: .leading, spacing: 10) {
+                            // Add your content here
+                            Text("Overview")
+                                .fontWeight(.bold)
+                            
+                            Text("Summer enrichment program that provides an intensive study in a single online course.")
                                 .padding()
-                                .background(Color.teal.opacity(0.1))
-                                .cornerRadius(8)
+                                .background(Color.teal.opacity(0.3))
+                                .cornerRadius(5)
+                            
+                            Text("Cost")
+                                .fontWeight(.bold)
+                            Text("$3,050 USD is required for tuition +fees.")
+                                .padding()
+                                .background(Color.teal.opacity(0.3))
+                                .cornerRadius(5)
+                            
+                            Text("Who")
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            Text("Grades 8-11")
+                                .padding()
+                                .background(Color.teal.opacity(0.3))
+                                .cornerRadius(5)
+                            
+                            Text("Requirements")
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            VStack {
+                                Text("An online application requiring your students academic records, work samples and an optional video essay." )
+                                    .fontWeight(.light)
+                                    .padding()
+                                    .background(Color.teal.opacity(0.3))
+                                    .cornerRadius(10)
+                                
+                                
+                                // Example image
+                                Image(systemName: "heart.fill")
+                                    .resizable()
+                                    .frame(width: 50, height: 50)
+                                    .foregroundColor(.red)
                             }
                             .padding()
-                            .background(Color.teal.opacity(0.3))
-                            .cornerRadius(10)
+                            .background(Color.teal.opacity(0.1))
+                            .cornerRadius(8)
                         }
+                        .padding()
+                        .background(Color.teal.opacity(0.3))
+                        .cornerRadius(10)
+                    }
                         .padding()
                         .background(Color.teal.opacity(0.3))
                         .cornerRadius(10)
                         .multilineTextAlignment(.leading)
                 
-                                // Fifth Disclosure Group
-                                DisclosureGroup("Summer Engineering Exploration (SEE) Camp", isExpanded: $isExpanded5) {
-                                    VStack(alignment: .leading, spacing: 10) {
-                                        // Add your content here
-                                        Text("Overview")
-                                            .fontWeight(.bold)
-                                        
-                                        Text("One week, residential, co-ed camp hosted by the Society of Women Engineers at the University of Michigan. Campers will learn about various engineering disciplines and industries.")
+                // Fifth Disclosure Group
+                DisclosureGroup("Summer Engineering Exploration (SEE) Camp", isExpanded: $isExpanded5) {
+                                VStack(alignment: .leading, spacing: 10) {
+                                    // Add your content here
+                                    Text("Overview")
+                                        .fontWeight(.bold)
+                                    
+                                    Text("One week, residential, co-ed camp hosted by the Society of Women Engineers at the University of Michigan. Campers will learn about various engineering disciplines and industries.")
+                                        .padding()
+                                        .background(Color.cyan.opacity(0.3))
+                                        .cornerRadius(5)
+                                    
+                                    Text("Cost")
+                                        .fontWeight(.bold)
+                                    Text("$650")
+                                        .padding()
+                                        .background(Color.cyan.opacity(0.3))
+                                        .cornerRadius(5)
+                                    
+                                    Text("Who")
+                                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                    Text("Rising sophomores and juniors.")
+                                        .padding()
+                                        .background(Color.cyan.opacity(0.3))
+                                        .cornerRadius(5)
+                                    
+                                    Text("Requirements")
+                                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                                        Text("An online application requiring your students activities outside of school and free response essays." )
+                                            .fontWeight(.light)
                                             .padding()
                                             .background(Color.cyan.opacity(0.3))
-                                            .cornerRadius(5)
-                                        
-                                        Text("Cost")
-                                            .fontWeight(.bold)
-                                        Text("$650")
-                                            .padding()
-                                            .background(Color.cyan.opacity(0.3))
-                                            .cornerRadius(5)
-                                        
-                                        Text("Who")
-                                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                        Text("Rising sophomores and juniors.")
-                                            .padding()
-                                            .background(Color.cyan.opacity(0.3))
-                                            .cornerRadius(5)
-                                        
-                                        Text("Requirements")
-                                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                                            Text("An online application requiring your students activities outside of school and free response essays." )
-                                                .fontWeight(.light)
-                                                .padding()
-                                                .background(Color.cyan.opacity(0.3))
-                                                .cornerRadius(10)
-    
-                                    }
-                                    .padding()
-                                    .background(Color.cyan.opacity(0.3))
-                                    .cornerRadius(10)
-                                    Spacer()
+                                            .cornerRadius(10)
+
                                 }
+                                .padding()
+                                .background(Color.cyan.opacity(0.3))
+                                .cornerRadius(10)
+                                Spacer()
+                            }
                                 .padding()
                                 .background(Color.cyan.opacity(0.3))
                                 .cornerRadius(10)

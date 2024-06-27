@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TechView: View {
+
     @State private var isExpanded1: Bool = false
     @State private var isExpanded2: Bool = false
     @State private var isExpanded3: Bool = false
@@ -17,6 +18,8 @@ struct TechView: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 10) {
+                Text("Computer Science/Tech Programs")
+                    .fontWeight(.bold)
                 // First Disclosure Group
                 DisclosureGroup("Girls Who Code (GWC)", isExpanded: $isExpanded1) {
                     VStack(alignment: .leading, spacing: 10) {
@@ -26,10 +29,10 @@ struct TechView: View {
                         
                         Text("It is a national nonprofit organization that aims to close the gender gap in technology and computer science by inspiring more girls to become computer scientists and engineers. GWC offers a variety of programs, including after-school clubs, summer programs, college and career programs, and GirlJams.")
                             .padding()
-                            .background(Color.yellow.opacity(0.3))
-                            .cornerRadius(5)
+                            .background(Color.blue.opacity(0.3))
+                            .cornerRadius(10)
                         
-                        Text("Cost:")
+                        Text("Cost")
                             .fontWeight(.bold)
                         Text("None")
                             .fontWeight(.light)
@@ -55,11 +58,6 @@ struct TechView: View {
                                 .padding()
                                 .background(Color.blue.opacity(0.3))
                                 .cornerRadius(10)
-                        }
-                        Image(systemName: "star.fill")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .foregroundColor(.yellow)
                     }
                     .padding()
                     .background(Color.blue.opacity(0.1))
@@ -77,15 +75,14 @@ struct TechView: View {
                             .fontWeight(.bold)
                         
                         Text("CSSI aims to provide an introduction to computer science for high school level students with a passion for technology. Their curriculum provides an intensive, interactive and hands-on opportunity for students with minimal exposure to CS to learn the basic concepts of programming. This content seeks to inspire the tech leaders and innovators of tomorrow by supporting the study of computer science, software engineering and other closely related subjects.")
-                        
                             .background(Color.green.opacity(0.3))
                             .cornerRadius(5)
-                        Text("Cost:")
+                        Text("Cost")
                             .fontWeight(.bold)
                         Text("FREE")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.green.opacity(0.3))
                             .cornerRadius(10)
                         
                         Text("Who")
@@ -94,18 +91,11 @@ struct TechView: View {
                         Text("High school level students.")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.green.opacity(0.3))
                             .cornerRadius(10)
                         Text("Requirements:")
                             .fontWeight(.bold)
                         Text("There are no stated requirements, but the only thing CSSI searches for are high school students that are truly passionate about technology and can withstand a intense and hands-on oppurtunity for learning the concepts of programming.")
-                        
-                        
-                        // Example image
-                        Image(systemName: "heart.fill")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .foregroundColor(.red)
                     }
                     .padding()
                     .background(Color.green.opacity(0.1))
@@ -123,15 +113,14 @@ struct TechView: View {
                             .fontWeight(.bold)
                         
                         Text("Kode With Klossy camps are a series of FREE 2-week coding-intensive camps designed for students of traditionally underrepresented genders in the STEM fields. Their curriculums aim to not only teach students the fundamentals of coding, but spark a lifelong passion for STEM. Scholars will complete the program with a new skill set and an incredible community of inspiring alumni to learn & grow with. You don’t need to know anything about coding to apply! Camp can be held either virtually or in person for web development, mobile app development, machine learning, or data science.")
-                        
-                            .background(Color.green.opacity(0.3))
-                            .cornerRadius(5)
-                        Text("Cost:")
+                            .background(Color.mint.opacity(0.3))
+                            .cornerRadius(10)
+                        Text("Cost")
                             .fontWeight(.bold)
                         Text("FREE")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.mint.opacity(0.3))
                             .cornerRadius(10)
                         
                         Text("Who")
@@ -140,25 +129,19 @@ struct TechView: View {
                         Text("Any female, non-binary, or transgender 13-18 years old.")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.mint.opacity(0.3))
                             .cornerRadius(10)
                         Text("Requirements:")
                             .fontWeight(.bold)
                         Text("No requirements.")
-                        
-                        
-                        // Example image
-                        Image(systemName: "heart.fill")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .foregroundColor(.red)
+            
                     }
                     .padding()
-                    .background(Color.green.opacity(0.1))
+                    .background(Color.mint.opacity(0.1))
                     .cornerRadius(8)
                 }
                 .padding()
-                .background(Color.green.opacity(0.3))
+                .background(Color.mint.opacity(0.3))
                 .cornerRadius(10)
                 
                 // Fourth Disclosure Group
@@ -169,15 +152,14 @@ struct TechView: View {
                             .fontWeight(.bold)
                         
                         Text("Inspirit AI Scholars is a remote computer science summer program that is targeted at students trying to get a preliminary understanding of machine learning.")
-                        
-                            .background(Color.green.opacity(0.3))
-                            .cornerRadius(5)
-                        Text("Cost:")
+                            .background(Color.cyan.opacity(0.3))
+                            .cornerRadius(10)
+                        Text("Cost")
                             .fontWeight(.bold)
                         Text("$1100 USD")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.cyan.opacity(0.3))
                             .cornerRadius(10)
                         
                         Text("Who")
@@ -186,25 +168,19 @@ struct TechView: View {
                         Text("Grades 9-12.")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.cyan.opacity(0.3))
                             .cornerRadius(10)
-                        Text("Requirements:")
+                        Text("Requirements")
                             .fontWeight(.bold)
                         Text("No requirements, but an interest in AI is appreciated.")
                         
-                        
-                        // Example image
-                        Image(systemName: "heart.fill")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .foregroundColor(.red)
                     }
                     .padding()
-                    .background(Color.green.opacity(0.1))
+                    .background(Color.cyan.opacity(0.1))
                     .cornerRadius(8)
                 }
                 .padding()
-                .background(Color.green.opacity(0.3))
+                .background(Color.cyan.opacity(0.3))
                 .cornerRadius(10)
                 
                 // Fifth Disclosure Group
@@ -216,14 +192,14 @@ struct TechView: View {
                         
                         Text("The Microsoft Discovery Program is open to graduating seniors interested in technology who live within 50 miles of Redmond, Washington, or attend high school around Atlanta, Georgia. Participants will learn the fundamentals of programming and get firsthand experience working at one of the world’s largest technology companies. Students will also receive mentorship from Microsoft employees and build valuable career skills.")
                         
-                            .background(Color.green.opacity(0.3))
-                            .cornerRadius(5)
-                        Text("Cost:")
+                            .background(Color.cyan.opacity(0.3))
+                            .cornerRadius(10)
+                        Text("Cost")
                             .fontWeight(.bold)
                         Text("FREE")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.cyan.opacity(0.3))
                             .cornerRadius(10)
                         
                         Text("Who")
@@ -232,25 +208,19 @@ struct TechView: View {
                         Text("Rising College Freshman")
                             .fontWeight(.light)
                             .padding()
-                            .background(Color.blue.opacity(0.3))
+                            .background(Color.cyan.opacity(0.3))
                             .cornerRadius(10)
-                        Text("Requirements:")
+                        Text("Requirements")
                             .fontWeight(.bold)
                         Text("A free response essay and information on the college you're attending in the fall.")
-                        
-                        
-                        // Example image
-                        Image(systemName: "heart.fill")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .foregroundColor(.red)
+ 
                     }
                     .padding()
-                    .background(Color.green.opacity(0.1))
+                    .background(Color.cyan.opacity(0.1))
                     .cornerRadius(8)
                 }
                 .padding()
-                .background(Color.green.opacity(0.3))
+                .background(Color.cyan.opacity(0.3))
                 .cornerRadius(10)
                 
                 Spacer()

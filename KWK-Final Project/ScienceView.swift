@@ -19,6 +19,8 @@ struct ScienceView: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 10) {
+                Text("Science Programs")
+                    .fontWeight(.bold)
                 // First Disclosure Group
                 DisclosureGroup("Research Science Institute", isExpanded: $isExpanded1) {
                     VStack(alignment: .leading, spacing: 10) {
@@ -313,12 +315,13 @@ struct ScienceView: View {
                         
                     }
                 }
-                .padding()
+                .padding(.all)
                 .background(Color.gray.opacity(0.3))
                 .cornerRadius(10)
                 .multilineTextAlignment(.leading)
                 Spacer()
             }
+            .padding(.all)
         }
             }
         }

@@ -16,6 +16,8 @@ struct MathView: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 10) {
+                Text("Math Programs")
+                    .fontWeight(.bold)
                 // First Disclosure Group
                 DisclosureGroup("MathCamp", isExpanded: $isExpanded1) {
                     VStack(alignment: .leading, spacing: 10) {
@@ -233,11 +235,11 @@ struct MathView: View {
                 .cornerRadius(10)
                 
                 //Fifth Disclosure Group
-                DisclosureGroup("MOSP", isExpanded: $isExpanded5) {
+                DisclosureGroup("Mathematical Olympiad Program (MOSP)", isExpanded: $isExpanded5) {
                     VStack(alignment: .leading, spacing:10) {
                         Text("Overview")
                             .fontWeight(.bold)
-                        Text("Hosted by Carnegie Mellon University, open to all HS students interested in Mathematical Olympiad. Intensive 3-week program prepares students for programs like the International Mathematical Olympiad with daily lectures and problem solving sessions. All accepted contenders attend free of charge.")
+                        Text("Hosted by Carnegie Mellon University, this program is open to all HS students interested in Mathematical Olympiad. It's an intensive 3-week program prepares students for programs like the International Mathematical Olympiad with daily lectures and problem solving sessions. All accepted contenders attend free of charge.")
                             .padding()
                             .background(Color.cyan.opacity(0.3))
                             .cornerRadius(5)
@@ -245,26 +247,25 @@ struct MathView: View {
                         Text("Cost")
                             .fontWeight(.bold)
                         
-                        Text("")
+                        Text("Free of charge, as long as you get an invitation")
                             .padding()
                             .background(Color.cyan.opacity(0.3))
                             .cornerRadius(5)
                         
-                        Text("Who")
+                        Text("Who/Requirements")
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        Text("")
-                            .padding()
-                            .background(Color.cyan.opacity(0.3))
-                            .cornerRadius(5)
-                        
-                        Text("Requirements")
-                            .fontWeight(.bold)
-                        
-                        Text("")
-                            .fontWeight(.light)
-                            .padding()
-                            .background(Color.cyan.opacity(0.3))
-                            .cornerRadius(10)
+                        VStack{
+                            Text("Invitations are extended to the top non-Canadian finishers on USAMO. Students receiving invitations can be divided into four groups:")
+                            Text("USAMO winners: The Americans among the top 12 finishers on USAMO are invited to MOP regardless of their age. Additionally, they are invited to take the Team Selection Test and are viewed as potential members of the American IMO team for that year.")
+                            Text("Top non-senior USAMO finishers: In addition to the winners, the next 15 or so non-senior non-Canadian finishers are invited to attend MOP. This group is viewed as potential IMO team members for future years, although in extreme circumstances (including 2006) IMO team members for that year have been drawn from this pool.")
+                            Text("Top 30 freshmen and sophomores: The top 30 freshmen on USAMO and USAJMO are invited to attend MOP with the goal of providing them with a foundation in Olympiad-level mathematics.")
+                            Text("In 2008, another group was added. The girls who will be representing the United States at the European Girls Math Olympiad will attend MOP to prepare for that contest. This group is colloquially known as Pink MOP.")
+                            
+                        }
+                        .fontWeight(.light)
+                        .padding()
+                        .background(Color.cyan.opacity(0.3))
+                        .cornerRadius(5)
                     }
                     .padding()
                     .background(Color.cyan.opacity(0.1))
