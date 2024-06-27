@@ -311,11 +311,13 @@ struct ScienceView: View {
                         .background(Color.gray.opacity(0.1))
                         .cornerRadius(8)
                         
-                        
-                        Spacer()
                     }
-                    .padding()
                 }
+                .padding()
+                .background(Color.gray.opacity(0.3))
+                .cornerRadius(10)
+                .multilineTextAlignment(.leading)
+                Spacer()
             }
         }
             }
