@@ -20,6 +20,8 @@ struct ContentView: View {
                                 .frame(width: 100, height: 100)
                                 .aspectRatio(contentMode: .fit)
                             Text("Science")
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color(.systemIndigo))
                             
                         }
                         .padding()
@@ -33,6 +35,8 @@ struct ContentView: View {
                                 .frame(width: 100, height: 100)
                                 .aspectRatio(contentMode: .fit)
                             Text("Technology")
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color(.systemIndigo))
                         }
                         .padding()
                         
@@ -45,6 +49,8 @@ struct ContentView: View {
                                 .frame(width: 100, height: 100)
                                 .aspectRatio(contentMode: .fit)
                             Text("Engineering")
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color(.systemIndigo))
                         }
                         .padding()
                         
@@ -57,6 +63,8 @@ struct ContentView: View {
                                 .frame(width: 100, height: 100)
                                 .aspectRatio(contentMode: .fit)
                             Text("Math")
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color(.systemIndigo))
                         }
                         .padding()
                         
